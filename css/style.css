@@ -1,0 +1,31 @@
+#botao-id{
+    background-color: transparent;
+    border: transparent;
+    color: #333;
+}
+
+#btn-height{
+    height: 8vh;
+}
+
+@media(max-width: 767px){
+    #home-quote .display-4{
+        font-size: 2.5rem;
+    }
+
+    body{
+        padding-top: 0;
+    }
+
+    .fixed-top{
+        position: relative;
+    }
+}
+
+.lista-plano li + li {
+    border-top: 1px solid rgba(0,0,0,.2);
+}
+  
+.lista-plano li {
+padding: 1rem;
+}
